@@ -1,0 +1,116 @@
+.quiz-body{
+  margin: 0%;
+  padding: 0%;
+  background: white;
+  color: black !important;
+}
+.home-body{
+  background: url(/darkmobile.jpg) !important;
+  background-size: 100vh !important;
+  color: #ffffff;
+}
+
+.container{
+  box-sizing: border-box;
+  margin: auto;
+  width: 95%;
+  padding: 10px;
+  font-size: 19px;
+  border-radius: 20px;
+  background: #ffffff;
+  backdrop-filter: blur(5px);
+}
+nav{
+  color: white !important;
+}
+.h2{
+  text-align: center;
+  background-color: #15153f;
+  color: white;
+  padding: 10px;
+}
+.input{
+  margin-top: 15px;
+}
+.timer{
+ display: inline-block;
+}
+.h-btn{
+  border-radius: 10px;
+  color: white;
+  margin-left: 10px;
+}
+.h-btn:hover{
+  background-color: darkblue !important;
+  box-shadow: 0px 0px 5px blue;
+}
+.question{
+  color: #000000;
+  font-size: 23px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+.question::before {
+  content: "Question : ";
+  color: red;
+}
+footer{
+  width: 100%;
+  padding: 5px;
+  background: #2929bfeb;
+  color: white;
+  text-align: center;
+  position: sticky;
+  bottom: 0px;
+}
+.radio{
+  margin-bottom: 20px;
+  padding: 5px;
+  padding-bottom: 10px;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0px 3px 7px #ffffff;
+  height: auto;
+  overflow: scroll;
+  background-color: #d0d0d0;
+  font-size:24px ;
+}
+.next-btn{
+  font-size: 16px;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  background-color: #4a5ad6;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px #b7b7ed;
+  margin-bottom: 10px;
+}
+  
+.radio:hover{
+  box-shadow: 0px 3px 7px #a7aedb;
+  background-color: #6a81e6;
+  color: white;
+}
+.next-btn:hover{
+  background-color: #a8afea;
+  color: black;
+}
+
+
+ @media only screen and (max-width: 420px){
+   .container{
+     font-size: 16px !important;
+   }
+   .h-btn{
+     margin: 10px;
+     display: inline-block;
+   }
+ }
+ @media only screen and (min-width: 620px){
+   .container{
+     width: 65%;
+     padding: 20px;
+   }
+ }
